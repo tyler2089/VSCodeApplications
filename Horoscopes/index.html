@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Horoscope Generator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+
+  <header class="navbar">
+    <div class="watermark">
+        <h2>Tyler's</h2>
+        <h2>Horoscope</h2>
+        <h2>Generator</h2>
+    </div>
+    <div class="navbar-links">
+        <h4>Contact</h4>
+        <h4>About us</h4>
+    </div>
+    <div class="subscribe">
+        <h3>Subscribe</h3>
+    </div>
+  </header>
+  <body>
+    <div class="content">
+        <div class="userInfoContainer">
+            <div class="userInfo">   
+                <h3 class="label">Name</h3>
+                <input type="text" id="fName" name="name">
+            </div>
+
+            <div class="userInfo">
+                <h3 class="label">Zodiac Sign</h3>
+                <select id="zSign" name="zSign">
+                    <option value="null">Please Select Your Sign</option>
+                    <option value="aries">Aries</option>
+                    <option value="taurus">Taurus</option>
+                    <option value="gemini">Gemini</option>
+                    <option value="cancer">Cancer</option>
+                    <option value="leo">Leo</option>
+                    <option value="virgo">Virgo</option>
+                    <option value="libra">Libra</option>
+                    <option value="scorpio">Scorpio</option>
+                    <option value="sagittarius">Sagittarius</option>
+                    <option value="capricorn">Capricorn</option>
+                    <option value="aquarius">Aquarius</option>
+                    <option value="pisces">Pisces</option>
+                </select>
+            </div>
+
+            <div class="userInfo">
+                <h3 class="label">Gender</h3>
+                <select id="gender" name="gender">
+                    <option value="null">Please Select Your Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="nonbinary">Non-Binary</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="generate">
+            <h3 class="button" id="button">Generate Horoscope</h3>
+        </div>
+
+        <div class="horoscope">
+            <p id="output">Your Horoscope:</p>
+        </div>
+
+    <script src="script.js"></script>
+    </div>
+    </body>
+</html>

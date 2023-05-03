@@ -1,0 +1,129 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("https://cdn.britannica.com/45/104045-050-116C1F93/Signs-of-the-Zodiac-astrology.jpg");
+    background-size: 70%;
+    background-position-x: center;
+    background-position-y: 20%;
+    background-repeat: no-repeat;
+    background-color: #231f20;
+}
+
+input[type=text] {
+    background-color: white;
+    border: 1px solid black;
+}
+
+select {
+    border: 1px solid black;
+}
+
+.generate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.generate .button {
+    background-color:#481481;
+    border: 2px solid white;
+    color: white;
+    border-radius: 12px;
+    padding: 15px 32px;
+    font-size: 32px;
+    transition-duration: 0.4s;
+}
+
+.generate .button:hover {
+    color: #481481;
+    background-color: white;
+    border: 2px solid #481481;
+    cursor: pointer;
+}
+
+.horoscope {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.horoscope p {
+    background-color:#5a4d89;
+    border: 2px solid #b0e2ed;
+    border-radius: 4px;
+    color: white;
+    padding: 20px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    border-bottom: 4px solid #481481;
+    background-color: rgb(236, 235, 235);
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    margin-top: 3%;
+}
+
+.navbar-links h4 {
+    margin: 20px;
+}
+
+.navbar-links h4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.subscribe {
+    position: relative;
+    background-color: #481481;
+    padding: 49px;
+    padding-right: 75px;
+}
+
+.subscribe h3 {
+    background-color: #481481;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 5px;
+}
+
+.userInfo {
+    margin: 3%;
+    background-color:#5a4d89;
+    border: 2px solid #b0e2ed;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+.userInfo .label {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.userInfoContainer {
+    display: flex;
+    margin: 7%;
+    justify-content: center;
+}
+
+.watermark {
+    padding: 10px;
+}
